@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js projects</title>
+</head>
+<body>
+   <header>
+    <nav class="flex justify-between py-6 px-20">
+        <h2 title="hello i'm Aymane the devloper ENJOY!" class="font-bold text-sky-700">JS projects.</h2>
+        <ul class="hidden sm:flex  justify-between w-80">
+            <li><a class="text-sky-700 font-bold transition-all duration-200 hover:text-indigo-900 " href="#">Home</a></li>
+            <li><a class="text-sky-700 font-bold transition-all duration-200 hover:text-indigo-900 " href="#">Projects</a></li>
+            <li><a class="text-sky-700 font-bold transition-all duration-200 hover:text-indigo-900 " href="#">About</a></li>
+            <li><a class="text-sky-700 font-bold transition-all duration-200 hover:text-indigo-900 " href="#">Contact</a></li>
+        </ul>
+          <span id="menu" class="font-bold text-lg sm:hidden hover:text-indigo-900 cursor-pointer transition-all duration-200 text-sky-700">☰</span>
+          <aside id="aside" class="bg-gray-100 p-2 fixed h-full transition-all duration-300 ease-in-out right-[-100%] top-0 z-50 rounded-md py-4 w-96 ">
+             <span id="menuClose" class="font-bold text-lg hover:text-indigo-900 cursor-pointer pl-85   transition-all duration-200 text-sky-700">X</span>
+                    <ul class="space-y-5">
+  <li class="hover:bg-sky-600 py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
+    <a href="#" class="text-sky-700 font-bold block">Home</a>
+  </li>
+  <li class="hover:bg-sky-600 py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
+    <a href="#" class="text-sky-700 font-bold block">Projects</a>
+  </li>
+  <li class="hover:bg-sky-600 py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
+    <a href="#" class="text-sky-700 font-bold block">About</a>
+  </li>
+  <li class="hover:bg-sky-600 py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
+    <a href="#" class="text-sky-700 font-bold block">Contact</a>
+  </li>
+</ul>
+
+          </aside>
+    </nav>
+   </header>
+   <div id="bluring" class="fixed inset-0 bg-black/30 backdrop-blur-sm z-40 hidden"></div>
+   
+   <main class="bg-gradient-to-r from-indigo-600 to-blue-500 h-[calc(100vh-72px)] flex justify-center items-center  ">
+    <section class="text-center space-y-6">
+        <h1 class="text-5xl text-white font-extrabold tracking-tighter">Welcome to My JavaScript Projects</h1>
+    <p class="text-slate-300 text-md font-normal  tracking-widest">
+                 All of these projects are built using Vanilla JavaScript and styled with Tailwind CSS.</p>
+        <a href="#"> <button class="text-sky-900 font-mono bg-white py-3 rounded-md px-6 cursor-pointer active:scale-95">Explore my Projects 🚀</button>
+  </a>
+  </section>
+   </main>
+   
+
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+</head>
+<body class="flex  h-full justify-center items-center mt-40">
+    <div class="border-2 border-green-900 rounded-lg space-y-11 px-10 py-10 w-1/2 flex flex-col items-center">
+          <h1 class="text-4xl " >Dice Roller</h1>
+         <img id="face" src="img/dice1.png" alt="">
+         <button onclick="roll()" class="text-lg font-bold bg-green-700 text-white py-2 px-8 rounded-md transition-all duration-200 hover:bg-teal-900 cursor-pointer">Roll dice</button>
+         <p class="text-sm text-gray-400">Press Enter to roll the dice</p>
+    </div>
+       
+    <script src="app.js"></script>
+</body>
+</html>
