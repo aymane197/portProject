@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,49 +10,121 @@
 </head>
 <body>
    <header>
-    <nav class="flex justify-between py-6 px-20">
-        <h2 title="hello i'm Aymane the devloper ENJOY!" class="font-bold text-sky-700">JS projects.</h2>
+    <nav class="flex shadow-xl justify-between h-20 items-center px-10 md:px-20">
+        <h2 title="hello i'm Aymane the devloper ENJOY!" class="font-bold text-xl text-sky-700">JS projects.</h2>
         <ul class="hidden sm:flex  justify-between w-80">
-            <li><a class="text-sky-700 font-bold transition-all duration-200 hover:text-indigo-900 " href="#">Home</a></li>
-            <li><a class="text-sky-700 font-bold transition-all duration-200 hover:text-indigo-900 " href="#">Projects</a></li>
-            <li><a class="text-sky-700 font-bold transition-all duration-200 hover:text-indigo-900 " href="#">About</a></li>
-            <li><a class="text-sky-700 font-bold transition-all duration-200 hover:text-indigo-900 " href="#">Contact</a></li>
+            <li><a class="text-sky-700 font-bold transition-all  ease-in-out hover:text-sky-500  " href="#">Home</a></li>
+            <li><a class="text-sky-700 font-bold transition-all  ease-in-out hover:text-sky-500  " href="#">Projects</a></li>
+            <li><a class="text-sky-700 font-bold transition-all  ease-in-out hover:text-sky-500  " href="#">About</a></li>
+            <li><a class="text-sky-700 font-bold transition-all  ease-in-out hover:text-sky-500  " href="#">Contact</a></li>
         </ul>
-          <span id="menu" class="font-bold text-lg sm:hidden hover:text-indigo-900 cursor-pointer transition-all duration-200 text-sky-700">☰</span>
+          <span id="menu" class="font-bold text-lg sm:hidden hover:text-sky-400 cursor-pointer transition-all duration-200 text-sky-700"><i class="ri-menu-3-line text-2xl"></i></span>
           <aside id="aside" class="bg-gray-100 p-2 fixed h-full transition-all duration-300 ease-in-out right-[-100%] top-0 z-50 rounded-md py-4 w-96 ">
-             <span id="menuClose" class="font-bold text-lg hover:text-indigo-900 cursor-pointer pl-85   transition-all duration-200 text-sky-700">X</span>
+             <span id="menuClose" class="font-bold text-3xl hover:text-indigo-900 cursor-pointer pl-80   transition-all duration-200 text-sky-700"><i class="ri-close-line"></i></span>
                     <ul class="space-y-5">
-  <li class="hover:bg-sky-600 py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
-    <a href="#" class="text-sky-700 font-bold block">Home</a>
+  <li class="hover:bg-sky-600 group py-3 hosudo ufw allow 5500
+ver:text-white pl-5 w-full rounded-md transition-all duration-200">
+    <a href="#" class="text-sky-700 group-hover:text-white font-bold block">Home</a>
   </li>
-  <li class="hover:bg-sky-600 py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
-    <a href="#" class="text-sky-700 font-bold block">Projects</a>
+  <li class="hover:bg-sky-600 group py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
+    <a href="#" class="text-sky-700 group-hover:text-white font-bold block">Projects</a>
   </li>
-  <li class="hover:bg-sky-600 py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
-    <a href="#" class="text-sky-700 font-bold block">About</a>
+  <li class="hover:bg-sky-600 group py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
+    <a href="#" class="text-sky-700 group-hover:text-white font-bold block">About</a>
   </li>
-  <li class="hover:bg-sky-600 py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
-    <a href="#" class="text-sky-700 font-bold block">Contact</a>
+  <li class="hover:bg-sky-600 group py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
+    <a href="#" class="text-sky-700 group-hover:text-white font-bold block">Contact</a>
   </li>
 </ul>
 
-          </aside>
+      </aside>
     </nav>
    </header>
    <div id="bluring" class="fixed inset-0 bg-black/30 backdrop-blur-sm z-40 hidden"></div>
    
-   <main class="bg-gradient-to-r from-indigo-600 to-blue-500 h-[calc(100vh-72px)] flex justify-center items-center  ">
+   <main class="bg-gradient-to-r from-indigo-600 to-blue-500 h-[calc(100vh-80px)] flex px-2 md:px-9 justify-center items-center  ">
     <section class="text-center space-y-6">
-        <h1 class="text-5xl text-white font-extrabold tracking-tighter">Welcome to My JavaScript Projects</h1>
-    <p class="text-slate-300 text-md font-normal  tracking-widest">
+        <h1 class="text-5xl text-white font-extrabold tracking-tighter">Welcome to My <span class="text-6xl text-yellow-300">JavaScript Projects</span></h1>
+    <p class=" text-md font-normal text-white/80 mx-auto max-w-xl  tracking-widest">
                  All of these projects are built using Vanilla JavaScript and styled with Tailwind CSS.</p>
-        <a href="#"> <button class="text-sky-900 font-mono bg-white py-3 rounded-md px-6 cursor-pointer active:scale-95">Explore my Projects 🚀</button>
-  </a>
+        <a href="#projects" class="text-blue-600 font-mono bg-white py-3 rounded-full transition-all duration-200 px-6 cursor-pointer hover:bg-blue-100  active:scale-95">Explore my Projects 🚀</a>
+        <div class="absolute flex justify-center items-center bottom-0 right-1/2 overflow-hidden translate-x-1/2 bg-black/50 w-full h-20">
+          <div class="flex slider animate-move justify-around w-3/4 overflow-hidden ">
+        <i class="ri-html5-fill text-7xl text-white"></i>
+        <i class="ri-css3-fill text-7xl text-white"></i>
+        <i class="ri-javascript-fill text-7xl text-white"></i>
+        <i class="ri-tailwind-css-fill text-7xl text-white"></i>
+        <i class="ri-github-fill text-7xl text-white"></i>
+        <i class="ri-remixicon-fill text-7xl text-white"></i>
+          </div>
+        </div>
   </section>
    </main>
-   
+
+   <!--_______________projects section____________________-->
+   <section id="projects"  class="relative to-slate-200 flex  flex-wrap gap-5 justify-center items-start  pt-25 md:pt-20">
+          <h3 class="text-center absolute -tracking-widest font-extrabold text-black top-4 text-4xl transform  translate-x-1/2 right-1/2 ">Java Script  <span class="text-sky-700">Projects</span></h3>
+
+          <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
+            <img class="rounded-t-md shadow-sm object-cover" src="img/projectsImg/clockimg.png" alt="">
+            <div class="flex px-3 flex-col space-y-2 text-left my-3">
+              <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">Digital Clock</h3>
+              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: A real-time digital clock displaying the current hour, minutes, and seconds with vibrant styling.</p>
+              <a href="digital clock/digitalClock.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+            </div>
+          </div>
+
+           <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
+            <img class="rounded-t-md shadow-sm object-cover" src="img/projectsImg/gessingimg.png" alt="">
+            <div class="flex px-3 flex-col space-y-2 text-left my-3">
+              <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">Number Guessing Game</h3>
+              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: Try to guess the secret number between 0 and 10. Fun and interactive logic game!</p>
+              <a href="digital clock/digitalClock.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+            </div>
+          </div>
+
+           <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
+            <img class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/dicerollerimg.png" alt="">
+            <div class="flex px-3 flex-col space-y-2 text-left my-3">
+              <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">Dice roller</h3>
+              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: Click or press enter to roll a dice and get a random number. Simple, clean, and satisfying!</p>
+              <a href="digital clock/digitalClock.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+            </div>
+          </div>
+
+            <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
+            <img class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/rockPaperScissor.png" alt="">
+            <div class="flex px-3 flex-col space-y-2 text-left my-3">
+              <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">Rock Paper Scissor</h3>
+              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: a simple rock Paper Scissor game using java script with basics of styling with css the important is logic</p>
+              <a href="RockPaperScissor/index.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+            </div>
+          </div>
+
+            <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
+            <img class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/rpscss.png" alt="">
+            <div class="flex px-3 flex-col space-y-2 text-left my-3">
+              <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">RPS</h3>
+              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: rock paper scissor game with bieutifull styling using pure css and sounds effect and smiple design </p>
+              <a href="RPS/index.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+            </div>
+          </div>
+
+            <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
+            <img class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/grG.png" alt="">
+            <div class="flex px-3 flex-col space-y-2 text-left my-3">
+              <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">QR code Generator</h3>
+              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: generate qr code for everything , logic with javascript and api  and css styling simple clean </p>
+              <a href="QR code Generator/index.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+            </div>
+          </div>
+  
+        
+          
+   </section>
 
     
     <script src="app.js"></script>
+    
 </body>
 </html>

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+}
+h3{
+    margin: 20px 0;
+    transition: all 0.3s ease-in;
+}
+button{
+    font-size: large;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid rgb(32, 82, 138);
+    background: #4b48eccc;
+    color: azure;
+    cursor: pointer;
+}

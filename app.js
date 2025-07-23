@@ -42,13 +42,18 @@ const bluring = document.getElementById('bluring');
 
 
 menu.addEventListener('click', ()=> {
-      aside.classList.toggle('right-0');
-      aside.classList.toggle('right-[-100%]');
+      aside.classList.add('right-0');
+      aside.classList.remove('right-[-100%]');
    bluring.classList.remove('hidden');
 });
 
 menuClose.addEventListener('click', ()=> {
-      aside.classList.toggle('right-0');
-      aside.classList.toggle('right-[-100%]');
+      aside.classList.remove('right-0');
+      aside.classList.add('right-[-100%]');
      bluring.classList.add('hidden');
 });
+bluring.addEventListener('click' , ()=>{
+    aside.classList.remove('right-0');
+      aside.classList.add('right-[-100%]');
+     bluring.classList.add('hidden');
+})
