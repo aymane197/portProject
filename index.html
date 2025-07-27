@@ -5,32 +5,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <meta charset="UTF-8">
+    <meta name="description" content="Small collection of JavaScript projects by Aymane — built for learning and fun.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>js projects</title>
 </head>
 <body>
    <header>
     <nav class="flex shadow-xl justify-between h-20 items-center px-10 md:px-20">
-        <h2 title="hello i'm Aymane the devloper ENJOY!" class="font-bold text-xl text-sky-700">JS projects.</h2>
+        <h2 title="HI i'm Aymane the devloper  Enjoy watching and have fun!" class="font-bold text-xl text-sky-700">JS projects.</h2>
         <ul class="hidden sm:flex  justify-between w-80">
-            <li><a class="text-sky-700 font-bold transition-all  ease-in-out hover:text-sky-500  " href="#">Home</a></li>
-            <li><a class="text-sky-700 font-bold transition-all  ease-in-out hover:text-sky-500  " href="#">Projects</a></li>
-            <li><a class="text-sky-700 font-bold transition-all  ease-in-out hover:text-sky-500  " href="#">About</a></li>
-            <li><a class="text-sky-700 font-bold transition-all  ease-in-out hover:text-sky-500  " href="#">Contact</a></li>
+            <li><a class="text-sky-700  font-bold transition-all  ease-in-out hover:text-sky-500  " href="#">Home</a></li>
+            <li><a class="text-sky-700  font-bold transition-all  ease-in-out hover:text-sky-500  " href="#projects">Projects</a></li>
+            <li><a class="text-sky-700  font-bold transition-all  ease-in-out hover:text-sky-500  " href="#about">About</a></li>
+            <li><a class="text-sky-700  font-bold transition-all  ease-in-out hover:text-sky-500  " href="#contact">Contact</a></li>
         </ul>
           <span id="menu" class="font-bold text-lg sm:hidden hover:text-sky-400 cursor-pointer transition-all duration-200 text-sky-700"><i class="ri-menu-3-line text-2xl"></i></span>
-          <aside id="aside" class="bg-gray-100 p-2 fixed h-full transition-all duration-300 ease-in-out right-[-100%] top-0 z-50 rounded-md py-4 w-96 ">
-             <span id="menuClose" class="font-bold text-3xl hover:text-indigo-900 cursor-pointer pl-80   transition-all duration-200 text-sky-700"><i class="ri-close-line"></i></span>
+          <aside id="aside" class="bg-gray-100 dark:bg-gray-900 p-2 fixed h-full transition-all duration-300 ease-in-out right-[-100%] top-0 z-50 rounded-md py-4 w-96 ">
+             <span id="menuClose" class="font-bold text-3xl hover:text-sky-400 cursor-pointer pl-80   transition-all duration-200 text-sky-700"><i class="ri-close-line"></i></span>
                     <ul class="space-y-5">
-  <li class="hover:bg-sky-600 group py-3 hosudo ufw allow 5500
-ver:text-white pl-5 w-full rounded-md transition-all duration-200">
+  <li class="hover:bg-sky-600 group py-3 text-white pl-5 w-full rounded-md transition-all duration-200">
     <a href="#" class="text-sky-700 group-hover:text-white font-bold block">Home</a>
   </li>
   <li class="hover:bg-sky-600 group py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
-    <a href="#" class="text-sky-700 group-hover:text-white font-bold block">Projects</a>
+    <a href="#projects" class="text-sky-700 group-hover:text-white font-bold block">Projects</a>
   </li>
   <li class="hover:bg-sky-600 group py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
-    <a href="#" class="text-sky-700 group-hover:text-white font-bold block">About</a>
+    <a href="#about" class="text-sky-700 group-hover:text-white font-bold block">About</a>
   </li>
   <li class="hover:bg-sky-600 group py-3 hover:text-white pl-5 w-full rounded-md transition-all duration-200">
     <a href="#" class="text-sky-700 group-hover:text-white font-bold block">Contact</a>
@@ -48,82 +48,125 @@ ver:text-white pl-5 w-full rounded-md transition-all duration-200">
     <p class=" text-md font-normal text-white/80 mx-auto max-w-xl  tracking-widest">
                  All of these projects are built using Vanilla JavaScript and styled with Tailwind CSS.</p>
         <a href="#projects" class="text-blue-600 font-mono bg-white py-3 rounded-full transition-all duration-200 px-6 cursor-pointer hover:bg-blue-100  active:scale-95">Explore my Projects 🚀</a>
-        <div class="absolute flex justify-center items-center bottom-0 right-1/2 overflow-hidden translate-x-1/2 bg-black/50 w-full h-20">
-          <div class="flex slider animate-move justify-around w-3/4 overflow-hidden ">
-        <i class="ri-html5-fill text-7xl text-white"></i>
-        <i class="ri-css3-fill text-7xl text-white"></i>
-        <i class="ri-javascript-fill text-7xl text-white"></i>
-        <i class="ri-tailwind-css-fill text-7xl text-white"></i>
-        <i class="ri-github-fill text-7xl text-white"></i>
-        <i class="ri-remixicon-fill text-7xl text-white"></i>
-          </div>
-        </div>
+      
   </section>
    </main>
 
    <!--_______________projects section____________________-->
-   <section id="projects"  class="relative to-slate-200 flex  flex-wrap gap-5 justify-center items-start  pt-25 md:pt-20">
-          <h3 class="text-center absolute -tracking-widest font-extrabold text-black top-4 text-4xl transform  translate-x-1/2 right-1/2 ">Java Script  <span class="text-sky-700">Projects</span></h3>
+   <section id="projects"  class="relative to-gray-50 flex  flex-wrap gap-5 justify-center items-start  pt-25 md:pt-20">
+          <h3 class="text-center absolute -tracking-widest font-extrabold text-black top-4 text-4xl transform  translate-x-1/2 right-1/2 ">JavaScript  <span class="text-sky-700">Projects</span></h3>
 
           <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
-            <img class="rounded-t-md shadow-sm object-cover" src="img/projectsImg/clockimg.png" alt="">
+            <img style="filter: saturate(0.9) brightness(0.95);" class="rounded-t-md shadow-sm object-cover" src="img/projectsImg/clockimg.png" alt="">
             <div class="flex px-3 flex-col space-y-2 text-left my-3">
               <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">Digital Clock</h3>
-              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: A real-time digital clock displaying the current hour, minutes, and seconds with vibrant styling.</p>
-              <a href="digital clock/digitalClock.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+              <p class="text-gray-600 text-sm md:text-base leading-relaxed mt-2 tracking-wide">Description: A real-time digital clock displaying the current hour, minutes, and seconds with vibrant styling.</p>
+              <a href="digital clock/digitalClock.html" target="_blank" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
             </div>
           </div>
 
            <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
-            <img class="rounded-t-md shadow-sm object-cover" src="img/projectsImg/gessingimg.png" alt="">
+            <img style="filter: saturate(0.9) brightness(0.95);" class="rounded-t-md shadow-sm object-cover" src="img/projectsImg/gessingimg.png" alt="">
             <div class="flex px-3 flex-col space-y-2 text-left my-3">
               <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">Number Guessing Game</h3>
-              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: Try to guess the secret number between 0 and 10. Fun and interactive logic game!</p>
-              <a href="digital clock/digitalClock.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+              <p class="text-gray-600 text-sm md:text-base leading-relaxed tracking-wide">Description: Try to guess the secret number that the copmuter chose between 0 and 10. Fun and interactive logic game!</p>
+              <a href="digital clock/digitalClock.html" target="_blank" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
             </div>
           </div>
 
            <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
-            <img class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/dicerollerimg.png" alt="">
+            <img style="filter: saturate(0.9) brightness(0.95);" class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/dicerollerimg.png" alt="">
             <div class="flex px-3 flex-col space-y-2 text-left my-3">
-              <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">Dice roller</h3>
-              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: Click or press enter to roll a dice and get a random number. Simple, clean, and satisfying!</p>
-              <a href="digital clock/digitalClock.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+              <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">Dice Roller</h3>
+              <p class="text-gray-600 mt-2 text-sm md:text-base leading-relaxed tracking-wide">Description: Click or press enter to roll a dice and get a random number between 1 and 6. Simple, clean, and satisfying!</p>
+              <a href="digital clock/digitalClock.html" target="_blank" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
             </div>
           </div>
 
             <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
-            <img class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/rockPaperScissor.png" alt="">
+            <img style="filter: saturate(0.9) brightness(0.95);" class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/rockPaperScissor.png" alt="">
             <div class="flex px-3 flex-col space-y-2 text-left my-3">
               <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">Rock Paper Scissor</h3>
-              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: a simple rock Paper Scissor game using java script with basics of styling with css the important is logic</p>
-              <a href="RockPaperScissor/index.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+              <p class="text-slate-600 mt-2 text-sm md:text-base leading-relaxed tracking-wide">Description: a simple rock Paper Scissor game using java script with basics of styling with css the important is logic</p>
+              <a href="RockPaperScissor/index.html" target="_blank" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
             </div>
           </div>
 
             <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
-            <img class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/rpscss.png" alt="">
+            <img style="filter: saturate(0.9) brightness(0.95);" class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/rpscss.png" alt="">
             <div class="flex px-3 flex-col space-y-2 text-left my-3">
               <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">RPS</h3>
-              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: rock paper scissor game with bieutifull styling using pure css and sounds effect and smiple design </p>
-              <a href="RPS/index.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
+              <p class="text-gray-600 text-sm md:text-base leading-relaxed tracking-wide">Description: rock paper scissor game with bieutifull styling using pure css and sounds effect and smiple design </p>
+              <a href="RPS/index.html" target="_blank" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
             </div>
           </div>
 
             <div   class="border border-slate-200 shadow-md h-[350px] transition-all hover:shadow-2xl hover:-translate-y-1 duration-300 ease-in-out flex flex-col w-96 rounded-lg">
-            <img class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/grG.png" alt="">
+            <img style="filter: saturate(0.9) brightness(0.95);" class="rounded-t-md h-[151.7px] shadow-sm object-cover" src="img/projectsImg/grG.png" alt="">
             <div class="flex px-3 flex-col space-y-2 text-left my-3">
               <h3 class="font-bold text-lg md:xl text-slate-800 tracking-tighter">QR code Generator</h3>
-              <p class="text-slate-600 text-sm md:text-base leading-relaxed tracking-wide">Description: generate qr code for everything , logic with javascript and api  and css styling simple clean </p>
+              <p class="text-gray-600 mt-2 text-sm md:text-base leading-relaxed tracking-wide">Description: generate qr code for everything , logic with javascript vanilla and api  and css styling simple clean </p>
               <a href="QR code Generator/index.html" class="bg-sky-600 font-medium w-30 text-center py-2 px-6 text-white group transition-all duration-200  hover:bg-sky-700 rounded-md ">Visit<i class="ri-arrow-right-up-long-line font-medium ml-2"></i></a>
             </div>
           </div>
-  
-        
-          
    </section>
 
-    
+   <!--_________________about section___________________-->
+
+        <section id="about" class=" relative gap-10  md:py-0 h-dvh flex-col flex justify-center px-12 items-center md:flex-row">
+          <h3 class="text-center absolute -tracking-widest font-extrabold text-black top-4 text-4xl transform  translate-x-1/2 right-1/2 ">About <span class="text-sky-700">Me</span></h3>
+          <img class="w-full mt-10 md:w-1/2 border-2 border-gray-200 p-2 rounded-md" src="img/about2.png" alt="">
+          <div class="flex flex-col justify-start items-start">
+                 <h1 class="text-center mb-2 md:mb-8 text-sky-800 font-bold text-2xl tracking-tighter ">About Me</h1>
+                 <p class="text-left leading-relaxed text-base text-gray-600">
+                 I'm Aymane, a passionate  <span class="font-medium text-sky-700">front-end developer</span> dedicated to building clean, responsive, and user-focused web applications. With modern frameworks, I strive to craft digital experiences that are not only functional but also visually engaging. Whether it's a simple interface or a complex project, I believe every detail matters.
+           <br>
+                If you're curious about any of the projects listed here or want to know more about how they were built, feel free to reach out <span class="group"><a class="text-blue-600 font-bold transition-all duration-200 group ease-out group-hover:text-blue-400" href="#contact">Contact Me</a><i class="ri-arrow-right-up-long-line transition-all duration-200  text-blue-600 group-hover:font-extrabold font-medium"></i></span>  I'd be happy to share more! 
+                 </p>
+          </div>
+          
+        </section>
+
+          <!--_________________Contact section___________________-->
+          <section id="contact" class="relative gap-4 md:gap-10 h-dvh px-10 py-10 flex flex-col md:flex-row items-center justify-center">
+             <h3 class="text-center absolute -tracking-widest font-extrabold text-black top-4 text-4xl transform  translate-x-1/2 right-1/2 ">Contact <span class="text-sky-700">Me</span></h3>
+             <img class="w-full mt-10 md:w-[500px] shadow-md border-2 border-gray-200 p-2 rounded-md" src="img/contact img.png" alt="">
+              <form class="flex flex-col space-y-4" action="https://formspree.io/f/meozgzln" method="post">
+              <input name="name" class="bg-gray-50 w-96 shadow-md rounded-md py-3 pl-2 outline-blue-500 border-1 border-gray-200" type="text" placeholder="Name" required>
+              <input name="email" class="bg-gray-50 w-96 shadow-md rounded-md py-3 pl-2 outline-blue-500 border-1 border-gray-200" type="email" placeholder="Email" required>
+              <textarea name="message" class="w-full bg-gray-50 shadow-md rounded-md py-3 pl-2 outline-blue-500 border-1 border-gray-200" name="" id="" placeholder="Let a message ..." required></textarea>
+              <button type="submit" class="bg-gradient-to-r from-indigo-600 shadow-md cursor-pointer to-blue-500 w-full text-white font-bold tracking-wide py-3 rounded-md">Send</button>
+              </form>
+
+          </section>
+
+          <footer id="footer" class="relative bg-blue-100 flex px-10 md:px-0 space-y-5 flex-col md:flex-row justify-around items-start pb-20 pt-20">
+               <div class="w-96">
+              <h3 class="text-xl text-blue-800 font-semibold mb-2 ">About</h3>
+              <p class="text-sm leading-relaxed tracking-wider text-gray-900">
+                Small collection of JavaScript projects by Aymane — built for learning and fun. Enjoy exploring!
+              </p>
+            </div>
+            <ul class="space-y-2">
+              <h3 class="text-blue-800 text-lg font-semibold">Social Media</h3>
+              <li><a class="text-gray-900 hover:text-blue-700 text-md transition-all duration-200" href="https://www.instagram.com/ayel_197?igsh=NTg5dTE4emZoOWdp" target="_blank"><i class="ri-instagram-line"></i> instagram</a></li>
+              <li><a class="text-gray-900 hover:text-blue-700 text-md transition-all duration-200" href="https://www.instagram.com/ayel_197?igsh=NTg5dTE4emZoOWdp"><i class="ri-linkedin-box-fill"></i> facebook</a></li>
+              <li><a class="text-gray-900 hover:text-blue-700 text-md transition-all duration-200" href="https://www.linkedin.com/in/ayman-elaroui-957095337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="ri-facebook-box-fill"></i> linkdin</a></li>
+            </ul> 
+            <ul class="space-y-2">
+              <h3 class="text-blue-800 text-lg font-semibold">Links</h3>
+              <li><a class="hover:underline  hover:text-blue-700  transition-all duration-200 text-gray-900 text-md" href="#">Home</a></li>
+              <li><a class="hover:underline  hover:text-blue-700  transition-all duration-200 text-gray-900 text-md" href="#about">About me</a></li>
+              <li><a class="hover:underline  hover:text-blue-700  transition-all duration-200 text-gray-900 text-md" href="#contact">Contact me</a></li>
+            </ul>
+                <div class="text-md absolute bottom-5 right-1/2 translate-x-1/2  " style="color: #94a3b8;">
+                        © 2025 Aymane Dev. All rights reserved.
+                      </div>
+
+
+          </footer>
+
+          
     <script src="app.js"></script>
     
 </body>
