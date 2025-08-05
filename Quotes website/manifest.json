@@ -1,0 +1,10 @@
+{
+    "manifest_version" : 3,
+    "name" : "test extention",
+    "description" : "my first extention",
+    "version" : "1.0",
+    "action" : {
+        "default_popup" : "index.html"
+    },
+    "permissions" : []
+}

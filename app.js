@@ -57,3 +57,14 @@ bluring.addEventListener('click' , ()=>{
       aside.classList.add('right-[-100%]');
      bluring.classList.add('hidden');
 })
+
+/*___________________scrollbar____________________________*/
+
+window.addEventListener("scroll",() => {
+  const mypos = window.scrollY;
+  const docheight = document.documentElement.scrollHeight - window.innerHeight;
+  const percentage = (mypos / docheight) * 100;
+
+  document.getElementById("scrollbar").style.width = percentage + "%";
+
+});
