@@ -1,3 +1,4 @@
+
 let userChose = document.getElementById('userChose');
 let result = document.getElementById('result');
 
@@ -21,7 +22,7 @@ function compare() {
 
 const face = document.getElementById('face');
 
-const faces = ['img/dice1.png','img/dice2.png','img/dice3.png','img/dice4.png','img/dice5.png','img/dice6.png',];
+const faces = ['../../img/dice1.png','../../img/dice2.png','../../img/dice3.png','../../img/dice4.png','../../img/dice5.png','../../img/dice6.png',];
 
 function roll(){
    let r = Math.floor(Math.random() * 6);
